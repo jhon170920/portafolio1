@@ -60,7 +60,7 @@ html{
     color: #1cb698;
 }
 /* botton Menu*/
-#menu-toggle{
+.menu-toggle{
     display: none;
 }
 .menu-icon{
@@ -202,7 +202,7 @@ footer .redes a:hover{
 }
 /*mostrar menu al activar*/
 
-#menu-toogle:checked ~ .nav ul{
+.menu-toogle:checked ~.nav ul{
     display: flex;
 } 
 .container-header header .nav ul li{
