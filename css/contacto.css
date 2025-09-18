@@ -260,3 +260,32 @@ footer .redes a:hover{
     border-color: #1cb698;
     transform: scale(1.1);
 }
+@media screen and (max-width: 768px) {
+    .contacto{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 10px;
+        justify-items: center;
+    }
+    .contacto-titulo h1{
+        font-size: 25px;
+        justify-content: center;
+    }
+    .contacto-titulo p{
+        font-size: 14px;
+    }
+    .formulario{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .mapa iframe{
+
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 10px;
+
+    }
+    footer .redes a{
+        font-size: 15px;
+    }   
+}
