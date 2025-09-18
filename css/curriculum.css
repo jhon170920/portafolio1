@@ -229,3 +229,53 @@ section{
     position: relative;
     bottom: 4px;
 }
+@media (max-width:768px){
+    .curriculum{
+        display: flex;
+        flex-direction: column;
+    }
+    .fila{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .container-section h2{
+        font-size: 32px;
+    }
+    .container-section .fila .col h3{
+        font-size: 20px;
+        justify-content: center;
+    }
+    .container-section .fila .izq{
+        margin-left: 0px;
+        padding: 2px;
+    }
+    .container-section .fila .der{
+        padding: 2px;
+    }
+    .container-section .fila .izq h4{
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    .container-section .fila .izq .casa{
+        font-size: 17px;
+    }
+    .container-section .fila .izq .fecha{
+        font-size: 14px;
+    }
+    .container-section .fila .izq p{
+        font-size: 9px;
+    }
+    
+    .container-section .fila .der h4{
+        font-size: 12px;
+    }
+    .container-section .fila .der .casa{
+        font-size: 17px;
+    }
+    .container-section .fila .der .fecha{
+        font-size: 14px;
+    }
+    .container-section .fila .der p{
+        font-size: 13px;
+}
+}

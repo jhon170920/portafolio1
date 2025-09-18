@@ -41,7 +41,7 @@ html{
 .container-header header .logo a{
     font-family: 'Righteos';
     font-size: 36px;
-    color: #1cb698;
+    color: #f5b002;
     text-decoration: none;
 }
 .container-header header ul{
@@ -57,7 +57,7 @@ html{
     text-decoration: none
 }
 .container-header header nav ul li a:hover{
-    color: #1cb698;
+    color: #f5b002;
 }
 /* Menú hamburguesa responsive */
 .nav-toggle {
@@ -91,7 +91,7 @@ html{
     padding: 20px 0;
 }
 .sobremi .container-section p span{
-    color: #1cb698;
+    color: #f5b002;
     font-weight: bold;
 }
 
@@ -114,7 +114,7 @@ html{
 }
 .sobremi .fila .col ul strong{
     display: inline-block;
-    color: #1cb698;
+    color: #f5b002;
     width: 120px;
     text-align: right;
 }
@@ -135,7 +135,7 @@ html{
     transition: .3s;
 }
 .sobremi .fila .col .container-interes .interes:hover{
-background-color: #1cb698;
+background-color: #f5b002;
 }
 /*FOOTER*/
 
@@ -164,11 +164,11 @@ footer .redes a{
     transition: all 0.3s ease;
 }
 footer .redes a:hover{
-    background: #1cb698;
-    border-color: #1cb698;
+    background: #f5b002;
+    border-color: #f5b002;
     transform: scale(1.1);
 }
-/*Resposive*/
+/*Resposive menu*/
 @media (max-width: 768px){
     .nav-toggle-label {
         display: block;
@@ -185,7 +185,7 @@ footer .redes a:hover{
         position: relative;
         width: 100%;
         height: 4px;
-        background: #1cb698;
+        background: #96773a;
         border-radius: 2px;
         transition: background 0.3s;
     }
@@ -196,7 +196,7 @@ footer .redes a:hover{
         left: 0;
         width: 100%;
         height: 4px;
-        background: #1cb698;
+        background: #f0bd05;
         border-radius: 2px;
         transition: transform 0.3s;
     }
